@@ -1,0 +1,28 @@
+.game-square {
+    background: #fff;
+    border: 1px solid #fff;
+    float: left;
+    font-weight: bold;
+    line-height: 34px;
+    padding: 0;
+    text-align: center;
+
+    &__button {
+        height: 80px;
+        width: 80px;
+    }
+
+    &__button:hover {
+        box-shadow: 0px 0px 15px #888;
+    }
+
+    &__x {
+        color: palevioletred;
+        font-size: 70px;
+    }
+
+    &__o {
+        color: lightskyblue;
+        font-size: 70px;
+    }
+}

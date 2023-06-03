@@ -1,0 +1,19 @@
+.board-container {
+    align-items: center;
+    justify-content: center;
+    font: 32px "Century Gothic", Futura, sans-serif;
+    color: white;
+
+
+    &__board-row {
+        margin: 0 10px;
+        background: none;
+    }
+
+    &__board-row:after {
+
+        clear: both;
+        content: '';
+        display: table;
+    }
+}

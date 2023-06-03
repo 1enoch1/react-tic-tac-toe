@@ -1,0 +1,25 @@
+.game-scoreboard {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    padding: 5px;
+    border: 5px solid lightseagreen;
+    margin-bottom: 20px;
+    background: darkslategray;
+}
+
+.game-score {
+    &__x {
+        color: palevioletred;
+        // font-size: 70px;
+    }
+
+    &__o {
+        color: lightskyblue;
+        // font-size: 70px;
+    }
+}
+
+.game-status {
+    margin-bottom: 15px;
+}
